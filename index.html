@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="emi_cal.css">
+</head>
+<body>
+<div id="container">
+<div id="main-header">
+<h1>GYANDHAN LOAN EMI CALCULATOR</h1>
+</div>
+<div id="loan-info"> 
+<form name="loan_form" id="theForm">
+<p>
+<div class="row">
+<label for="loan_amount">Total loan Amount(in Rs):</label>
+<input type="text" id="loan_amount" name="loan_amount" size="10"></br><br>
+</div>
+<div class="row">
+<label for="numOfMonths">Number Of Months:</label>
+<input type="text" id="numOfMonths"name="numOfMonths" size="10"></br><br>
+</div>
+<div class="row">
+<label for="interest">Annual Interest Rate:<span>(eg:4.5%=4.5)</span></label>
+<input type="text" id="interest" name="interest" size="10"></br><br>
+</div>
+<div class="row">
+<label for="extra">Extra Monthly payment:</label>
+<input type="text"  id="extra" name="extra" size="10"></br><br>
+</div>
+<table>
+<tr>
+<td><input  class="button" type="button" value="Calculate" onclick="validate()"></td>
+<td><input  class="button" type="button" value="StartOver" onclick="again()"></td>
+</tr>
+</table
+
+</p>
+ </form>
+</div>
+
+<div id="loan-receipt">
+</div>
+<div id="table-header">
+<table cellpadding='12'border='1'>
+<tr>
+<td width='40'>P.No.</td>
+<td width='70'>Payment</td>
+<td width='70'>Principle</td>
+<td width='70'>Interest</td>
+<td width='120'>Total interest paid</td>
+<td width='75'>Balance</td>
+</tr>
+</table>
+</div>
+<div id="table">
+</div>
+
+
+
+</div>
+<script src="emi_cal.js"></script>
+</body>
+
+</html>

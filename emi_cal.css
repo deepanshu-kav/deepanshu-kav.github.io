@@ -1,0 +1,75 @@
+#container{
+	width:650px;
+	height:600px;
+	margin:0px auto;
+	padding:10px;
+	background-color:white;
+	border:2px solid black;
+}
+#main-header{
+
+	color:black;
+	font-family:arial;
+	
+
+}
+h1{
+	text-align:center;
+	text-decoration:underline;
+}
+#loan-info{
+	float:left;
+	width:300px;
+	height:220px;
+	border:2px solid blue;
+	margin-bottom:10px;
+}
+#loan-receipt{
+	float:right;
+	width:300px;
+	height:220px;
+	border:2px solid orange;
+	margin-bottom:10px;;
+	padding:10px;
+}
+#table-header{
+	clear:both;
+	
+	width:650px;
+	height:50px;
+	border:2px solid black;
+}
+#table{
+	overflow:auto;
+	width:650px;
+	height:200px;
+	border:2px solid black;
+}
+table{
+	align:center;
+	font-family:helvetica;
+	font-size:14px;
+	
+}
+#theForm{
+	color:white;
+display:table;
+background-color:#66cdaa;
+font:700;
+}
+.row{
+	display:table-row;
+}
+.row label
+{
+	display:table-cell;
+}
+input{
+	margin-right:20px;
+}
+.button{
+	margin:7px;
+}
+span{
+	font-size:80%;
+}
